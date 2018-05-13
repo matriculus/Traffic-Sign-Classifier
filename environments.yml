@@ -1,0 +1,21 @@
+name: trafficsign
+channels:
+    - https://conda.anaconda.org/menpo
+    - conda-forge
+dependencies:
+    - python
+    - numpy
+    - matplotlib
+    - jupyter
+    - opencv3
+    - pillow
+    - scikit-learn
+    - scikit-image
+    - scipy
+    - h5py
+    - pandas
+    - imageio
+    - pip:
+        - moviepy
+        - tensorflow
+        - keras
