@@ -74,7 +74,7 @@ The most important choice I felt was the random generation of more image data fo
 Here are five German traffic signs that I found on the web:
 
 ![sign1](images/01.jpg) ![sign2](images/02.jpg) ![sign3](images/03.jpg)
-![sign4][images/04.jpg] ![sign5](images/05.jpg)
+![sign4](images/04.jpg) ![sign5](images/05.jpg)
 
 I cut the five downloaded images approximately to the same size.
 
