@@ -12,7 +12,7 @@ signs data set:
 Here is an exploratory visualization of the training data set. It is a bar chart showing how the data is distributed across the labels.
 The mean of the dataset across all the labels is appox. 809.
 
-![alt text][image1]
+![alt text][Charts/chart_1.png]
 
 As a first step, I decided to convert the images to grayscale because for the learning process we require only the information of the signs and the excess information in the images can be masked. 
 
@@ -24,7 +24,7 @@ The new training dataset was created and stored to save time in the future in cr
 
 The visualisation of the new training data is shown in a bar chart below.
 
-![alt text][image2]
+![alt text][Charts/chart_2.png]
 
 
 My final model consisted of the following layers:
@@ -59,7 +59,7 @@ My final model results were:
 * validation set accuracy of 0.953 
 * test set accuracy of 0.928
 
-![alt text][image3]
+![alt text][Charts/chart_3.png]
 	
 Initially without the preprocessing of grayscaling and before the problem of under representation in the labels was cleared, the validation accuracy saturated at 85%. After having the preprocessing, normalisation and increasing the training samples, it saturated at 89%. It required atleast a 50 epochs to reach that accuracy and therefore time consuming as well.
 
@@ -73,8 +73,8 @@ The most important choice I felt was the random generation of more image data fo
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![alt text][images/01.jpg] ![alt text][images/02.jpg] ![alt text][images/03.jpg] 
+![alt text][images/04.jpg] ![alt text][images/05.jpg]
 
 I cut the five downloaded images approximately to the same size.
 
